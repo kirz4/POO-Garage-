@@ -30,7 +30,10 @@ public class Veiculo {
     public int getPrecoPorHora(){
         return this.precoPorHora;
     }
-  
+
+    public String toString(){
+        return "Tipo: " + this.getTipo() + " Peso: " + this.getPeso() + " Preço por hora: " + this.getPrecoPorHora();
+    }
     
 
 }
